@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  width: auto;
+}
+
+.head {
+  display: flex;
+  background-color: rgb(71, 72, 73);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 240px;
+  align-items: center;
+  color: white;
+  max-width: 100%;
+}
+
+.header-img {
+  display: flex;
+  width: 57px;
+}
+
+h1 {
+  display: flex;
+  font-size: 16px;
+}
+
+.primeiroH3 {
+  display: flex;
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.paragrafo {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.gallery-img {
+  display: flex;
+  width: 130px;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  width: 500px;
+  height: auto;
+}
+
+.section div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(233, 230, 230);
+  box-shadow: 2px 2px rgb(173, 171, 171);
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  width: 150px;
+  height: 180px;
+  margin: 5px;
+}
+
+.sectio h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-img {
+  width: 25px;
+  height: auto;
+  margin-left: 10px;
+}
+
+#barra {
+  display: flex;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
